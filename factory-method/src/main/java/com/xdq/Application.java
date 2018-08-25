@@ -9,7 +9,10 @@ public class Application {
 
     public static void main(String[] args) throws Exception {
         CardFactory cardFactory = new CardFactoryImpl();
-        Card card = cardFactory.createCard(CardType.GREEN_CARD);
-        card.color();
+        Card card1 = cardFactory.createCard(CardType.GREEN_CARD);
+        card1.color();
+
+        Card card2 = cardFactory.createCard(CardType.RED_CARD);
+        card2.color();
     }
 }
