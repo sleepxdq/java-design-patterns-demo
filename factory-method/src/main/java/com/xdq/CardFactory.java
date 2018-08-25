@@ -7,5 +7,5 @@ package com.xdq;
  **/
 public interface CardFactory {
 
-    public Card createCard();
+    public Card createCard(CardType cardType) throws Exception;
 }

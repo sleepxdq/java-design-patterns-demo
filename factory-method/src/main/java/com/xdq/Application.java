@@ -7,9 +7,9 @@ package com.xdq;
  **/
 public class Application {
 
-    public static void main(String[] args) {
-        CardFactory cardFactory = new RedCardFactory();
-        Card card = cardFactory.createCard();
+    public static void main(String[] args) throws Exception {
+        CardFactory cardFactory = new CardFactoryImpl();
+        Card card = cardFactory.createCard(CardType.GREEN_CARD);
         card.color();
     }
 }

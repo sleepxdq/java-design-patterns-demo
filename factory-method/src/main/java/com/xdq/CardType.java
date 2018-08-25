@@ -6,4 +6,12 @@ package com.xdq;
  * Description:
  **/
 public enum CardType {
+
+    RED_CARD,GREEN_CARD;
+
+//    public String type;
+//
+//    CardType(String type){
+//        this.type = type;
+//    }
 }
