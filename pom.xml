@@ -13,6 +13,7 @@
         <module>singleton-lazy</module>
         <module>singleton-static-inner</module>
         <module>singleton-double-check</module>
+        <module>factory-methods</module>
     </modules>
 
     <properties>
