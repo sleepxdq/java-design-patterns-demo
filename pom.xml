@@ -15,6 +15,7 @@
         <module>singleton-double-check</module>
         <module>factory-methods</module>
         <module>abstract-factory</module>
+        <module>template-method</module>
     </modules>
 
     <properties>
