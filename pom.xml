@@ -16,6 +16,7 @@
         <module>factory-method</module>
         <module>abstract-factory</module>
         <module>template-method</module>
+        <module>proxy</module>
     </modules>
 
     <properties>
