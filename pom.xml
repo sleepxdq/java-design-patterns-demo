@@ -20,6 +20,7 @@
         <module>prototype</module>
         <module>mediator</module>
         <module>command</module>
+        <module>chain-of-resposibility</module>
     </modules>
 
     <properties>
