@@ -1,9 +1,12 @@
-package com.xdq;
+package com.xdq.clazz;
+
+import com.xdq.ConcreteTarget;
+import com.xdq.Target;
 
 /**
  * Author: 徐东强
  * Date: 2018/9/7 上午11:23
- * Description:
+ * Description:类适配器
  **/
 public class Application {
 
@@ -11,7 +14,7 @@ public class Application {
         Target target = new ConcreteTarget();
         target.operate();
 
-        target = new Apapter();
+        target = new Adapter();
         target.operate();
 
     }
