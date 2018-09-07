@@ -23,6 +23,7 @@
         <module>chain-of-responsibility</module>
         <module>decorator</module>
         <module>strategy</module>
+        <module>adapter</module>
     </modules>
 
     <properties>
