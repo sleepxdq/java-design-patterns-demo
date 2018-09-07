@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xdq</groupId>
-    <artifactId>java-design-patterns-zh</artifactId>
+    <artifactId>java-design-patterns-demo</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
-    <name>java-design-patterns-zh</name>
+    <name>java-design-patterns-demo</name>
 
     <modules>
         <module>singleton-lazy</module>
